@@ -21,7 +21,7 @@ export default {
 
 	data() {
 		return {
-			routes
+			routes: routes.filter(route => route.menu) // retorna apenas os links que devem aparecer no menu
 		}
 	}
 }
